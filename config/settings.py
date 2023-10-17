@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     
     # third party
     'debug_toolbar',
+    'bootstrap5',
 ]
 
 MIDDLEWARE = [
