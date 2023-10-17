@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     
     # third party
     'debug_toolbar',
-    'bootstrap5',
+    'crispy-forms',
+    'crispy-bootstrap5',
     
     # my apps
     'users.apps.UsersConfig',
@@ -131,3 +132,7 @@ STATIC_ROOT = 'staticfiles/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'users.Account'
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+
+CRISPY_TEMPLATE_PACK = "bootstrap5"
