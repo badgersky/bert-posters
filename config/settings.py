@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     
     # my apps
     'users.apps.UsersConfig',
+    'posters.apps.PostersConfig',
 ]
 
 MIDDLEWARE = [
