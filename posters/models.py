@@ -12,7 +12,7 @@ class Poster(models.Model):
     tags = models.ManyToManyField(Tag)
     height = models.PositiveIntegerField()
     width = models.PositiveIntegerField()
-    image = models.ImageField(upload_to='media/', height_field=height, width_field=width, blank=True)
+    image = models.ImageField(upload_to='media', height_field=height, width_field=width, blank=True)
     date_add = models.DateTimeField(auto_now_add=True)
     
     def __str__(self):
