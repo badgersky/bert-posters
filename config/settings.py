@@ -44,8 +44,8 @@ INSTALLED_APPS = [
     
     # third party
     'debug_toolbar',
-    'crispy-forms',
-    'crispy-bootstrap5',
+    'crispy_forms',
+    'crispy_bootstrap5',
     
     # my apps
     'users.apps.UsersConfig',
